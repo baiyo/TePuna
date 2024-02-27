@@ -1,0 +1,179 @@
+.container {
+    display: flex;
+    align-items: center;
+    /* scroll-snap-type: mandatory;
+    scroll-snap-type: y mandatory; */
+}
+
+html {
+    /* scroll-snap-type: y mandatory; */
+    overflow-x: hidden;
+}
+
+.Header {
+    text-align: center;
+    color: #000000;
+    font-size: 70px;
+}
+    
+.page-1 {
+    /* background-color: #2b333f !important; */
+    /* background-image: linear-gradient(140deg, #00000000 0%, #360326 50%, #2f302ec9 75%) !important;
+    background-attachment: fixed; */
+}   
+
+span {
+    color: white;
+}
+
+.container-text {
+    border-radius: 25px;
+    font-size: 16px;
+    display: flex;
+}
+
+.align-right {
+    margin-right: 5%;
+    padding-left: 12px;
+}
+
+.align-left {
+    margin-left: 5%;
+}
+
+.roudify {
+    border-radius: 25px;
+}
+
+.background-color-blue {
+    background-color: #8bc1ffab;
+    width: 100vw;
+    min-height: 50vh;
+}
+
+.background-color-green {
+    background-color: #76ffbbab;
+    width: 100vw;
+    min-height: 50vh;
+}
+
+.background-color-red {
+    background-color: #ff7676fb;
+    width: 100vw;
+    min-height: 50vh;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.c-text {
+    color: #3f4c5c;
+}
+
+.c-text-white {
+    color: #000000;
+}
+
+.background-color-grey {
+    background-color: #afafaf;
+}
+
+.rotate {
+    animation: rotation 3s infinite linear;
+}
+
+section {
+    min-height: 100vh;
+    min-width: 100vw;
+    scroll-snap-type: y mandatory;
+}
+
+
+.hidden {
+    visibility: hidden;
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+.down {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.up {
+    margin-bottom: auto;
+}
+
+.img-square {
+    width: 150px;
+    height: 150px;
+}
+
+.img-rectangle {
+    width: 250px;
+    height: 150px;
+}
+
+.sectionhalf {
+    width: 100%;
+    min-height: 50vh;
+}
+
+.NavHeader {
+    align-items: center;
+}
+
+.smaller-text {
+    font-size: 16px !important;
+}
+
+/* .button:hover {
+    color: #5c71b6;
+} */
+
+@media (min-width: 768px) 
+{
+    .img-square {
+        width: 250px;
+        height: 250px;
+    }
+
+
+    .img-rectangle {
+        width: 400px;
+        height: 250px;
+    }
+}
+
+@media (min-width: 768px) 
+{
+    .container-text {
+        border-radius: 25px;
+        font-size: 30px;
+        display: flex;
+    }
+
+    .smaller-text {
+        font-size: 24px !important;
+    }
+    
+   h1
+   {
+       font-size:24px;
+   }
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
